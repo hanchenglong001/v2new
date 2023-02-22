@@ -9,7 +9,7 @@ ENV VMESS_WSPATH /vmess
 COPY config.json /etc/v2ray/config.json
 COPY entrypoint.sh /etc/v2ray/entrypoint.sh
 RUN chmod a+x /etc/v2ray/entrypoint.sh \
-    && /etc/v2ray/entrypoint.sh
+    && sh /etc/v2ray/entrypoint.sh
 
 
 ENV TZ=Asia/Shanghai
