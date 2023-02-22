@@ -45,7 +45,7 @@
       "settings": {
         "clients": [
           {
-            "id": "UUID",
+            "id": "de04add9-5c68-8bab-950c-08cd5320df18",
             "alterId": 0
           }
         ],
@@ -56,7 +56,7 @@
         "security": "none",
         "wsSettings": {
           "acceptProxyProtocol": false,
-          "path": "VMESS_WSPATH",
+          "path": "/vml",
           "headers": {}
         }
       },
