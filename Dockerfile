@@ -6,8 +6,8 @@ WORKDIR /etc/v2ray
 ENV UUID de04add9-5c68-8bab-950c-08cd5320df18
 ENV VMESS_WSPATH /vmess
 
-COPY config.json ./config.json
-COPY entrypoint.sh ./entrypoint.sh
+COPY config.json .
+COPY entrypoint.sh .
 RUN chmod a+x entrypoint.sh \
     && entrypoint.sh
 
