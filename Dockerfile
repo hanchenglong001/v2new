@@ -7,7 +7,7 @@ ENV UUID de04add9-5c68-8bab-950c-08cd5320df18
 ENV VMESS_WSPATH /vmess
 
 
-RUN mkdir /etc/v2ray /usr/local/v2ray
+RUN mkdir /usr/local/v2ray
 COPY config.json /etc/v2ray/config.json
 COPY entrypoint.sh /usr/local/v2ray/
 RUN chmod a+x /usr/local/v2ray/entrypoint.sh 
